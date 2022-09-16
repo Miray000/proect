@@ -142,7 +142,7 @@ footer{
 }
   
   .karaoke span {
-    font-size: 5vw;
+    font-size: 6vw;
     background: linear-gradient(to right, #3f3f3f 50%, #fff 50%) 0 0 / 200% 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -192,6 +192,14 @@ footer{
    border-top-left-radius: 15px;
    border-top-right-radius: 15px;
 }
+	.karaoke span {
+    font-size: 6vw;
+    background: linear-gradient(to right, #3f3f3f 50%, #fff 50%) 0 0 / 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: white;
+    box-decoration-break: slice;
+    -webkit-box-decoration-break: slice;
+  }
 }
 
 @media screen and (max-width: 400px){
