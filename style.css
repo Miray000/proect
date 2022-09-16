@@ -219,4 +219,10 @@ footer{
     border-radius: 50px;
     background-color: #F78361;
   }
+
+.topi{
+display: flex;
+	justify-content: center;
+	color: white;
+}
   
