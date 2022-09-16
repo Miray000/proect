@@ -142,7 +142,7 @@ footer{
 }
   
   .karaoke span {
-    font-size: 6vw;
+    font-size: 3vw;
     background: linear-gradient(to right, #3f3f3f 50%, #fff 50%) 0 0 / 200% 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
