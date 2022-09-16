@@ -6,4 +6,10 @@ DirectoryIndex index.html
 # Redirects
  RewriteRule ^index.php$ / [QSA,R]
  RewriteRule ^index.html$ / [QSA,R]
+ DirectoryContacts contacts.html 
+
+# Redirects
+ RewriteRule ^contacts.php$ / [QSA,R]
+ RewriteRule ^contacts.html$ / [QSA,R]
+
 
