@@ -1,9 +1,5 @@
 
-RewriteEngine On
-RewriteRule ^index\.html$ / [R=301,L]
-RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
-RewriteRule ^contacts\.html$ / [R=301,L]
-RewriteRule ^(.*)/contacts\.html$ /$1/ [R=301,L]
+DirectoryIndex index.html index.php index.htm
 
 ErrorDocument 404 http://127.0.0.1:5500/404.html
 
