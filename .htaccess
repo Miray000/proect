@@ -1,4 +1,5 @@
 ErrorDocument 404 http://127.0.0.1:5500/404.html
 
 RewriteEngine On
-RewriteRule ^index\.html$ /
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTPS/
+RewriteRule ^index\.html$ https://proect.vercel.app/ [R=301,L]
