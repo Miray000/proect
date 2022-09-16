@@ -1,15 +1,7 @@
 ErrorDocument 404 http://127.0.0.1:5500/404.html
 
 RewriteEngine On
-DirectoryIndex index.html 
-
-# Redirects
- RewriteRule ^index.php$ / [QSA,R]
- RewriteRule ^index.html$ / [QSA,R]
- DirectoryContacts contacts.html 
-
-# Redirects
- RewriteRule ^contacts.php$ / [QSA,R]
- RewriteRule ^contacts.html$ / [QSA,R]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTPS/
+RewriteRule ^index\.html$ https://proect.vercel.app/ [R=301,L]
 
 
